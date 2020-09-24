@@ -42,12 +42,13 @@ for (let i=0; i<data.length; ++i) {
     img.src = data[i].image
     img.width = 300
     img.height = 300
-
     // Add the image to the div
     newDiv.appendChild(img)
-     // put new div inside items container
-     itemsContainer.appendChild(newDiv)
-    }
+    console.log(img)
+}
+    //  // put new div inside items container
+    //  itemsContainer.appendChild(newDiv)
+    // }
     
     
     console.log(img)
